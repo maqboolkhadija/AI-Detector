@@ -43,7 +43,7 @@ model = load_model()
 client = Groq(
     api_key=st.secrets["GROQ_API_KEY"]
 )
-)
+
 
 # -------------------------------
 # FUNCTION: GET OBJECT USE
