@@ -39,7 +39,6 @@ model = load_model()
 # ADD YOUR GROQ API KEY HERE
 # -------------------------------
 
-os.environ["GROQ_API_KEY"] = "APNA_GROQ_API_KEY_YAHAN_DALO"
 
 client = Groq(
     api_key=os.environ.get("GROQ_API_KEY"),
