@@ -1,6 +1,8 @@
-streamlit==1.33.0
-ultralytics==8.1.112
-opencv-python-headless==4.8.0.74
+streamlit
+ultralytics
+opencv-python-headless
 pillow
 groq
 numpy
+torch
+torchvision
