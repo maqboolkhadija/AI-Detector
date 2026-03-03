@@ -41,7 +41,8 @@ model = load_model()
 
 
 client = Groq(
-    api_key=os.environ.get("GROQ_API_KEY"),
+    api_key=st.secrets["GROQ_API_KEY"]
+)
 )
 
 # -------------------------------
